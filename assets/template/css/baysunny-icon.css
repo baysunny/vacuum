@@ -1,0 +1,179 @@
+.sunny-icon-sm{
+    width: 35px;
+    height: 35px;
+}
+
+.sunny-icon{
+    width: 55px;
+    height: 55px;
+}
+
+.baysunny-icon{
+    width: 55px;
+    height: 55px;
+}
+
+.sunny-icon-account{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/account.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/account.svg) no-repeat center / contain;
+    
+}
+
+.sunny-icon-location{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/location.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/location.svg) no-repeat center / contain;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-phone{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/phone.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/phone.svg) no-repeat center / contain;
+    width: 15px;
+    height: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-date{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/date.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/date.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-time{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/time.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/time.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-payment{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/payment.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/payment.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-list{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/list.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/list.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-team{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/team.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/team.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-tools{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/tools.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/tools.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-gurarantine{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/gurarantine.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/gurarantine.svg) no-repeat center / contain;
+    width: 55px;
+    height: 55px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-monitor{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/monitor.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/monitor.svg) no-repeat center / contain;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-consultation{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/consultation.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/consultation.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-star{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/star.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/star.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-amanah{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/amanah.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/amanah.svg) no-repeat center / contain;
+    
+}
+
+
+.sunny-icon-disgusting-trash{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/disgusting.svg) no-repeat center / contain;
+    /*-webkit-mask: url(/drives/drive-main-file/icons/disgusting.svg) no-repeat center / contain;  */
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-water{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/water.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/water.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-trash{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/trash.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/trash.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-limbah{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/limbah.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/limbah.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.sunny-icon-disgusting-trash{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/disgusting.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/disgusting.svg) no-repeat center / contain;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-water{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/water.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/water.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-trash{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/trash.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/trash.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.sunny-icon-limbah{
+    background-color: #00A2E9; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/limbah.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/limbah.svg) no-repeat center / contain;
+    transition: all 0.3s ease-in-out;
+}
+

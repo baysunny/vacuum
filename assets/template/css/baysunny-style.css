@@ -1,0 +1,412 @@
+
+/* benefit box  */
+@media only screen and (min-width : 120px) {
+    .benefit-box{
+        border-radius:25px; 
+        height:180px; 
+        width:200px;
+    }
+
+    .box-sunny .benefit-box .card-title{
+        font-size: .7rem;
+    }
+    .box-sunny .benefit-box .card-text{
+        font-size: .56rem;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .benefit-box{
+        border-radius:25px; 
+        height:190px; 
+        width:240px;
+    }
+
+    .box-sunny .benefit-box .card-text{
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .benefit-box{
+        border-radius:25px; 
+        height:200px; 
+        width:250px;
+    }
+    
+    .box-sunny .benefit-box .card-text{
+        font-size: .7rem;
+    }
+}
+
+.box-sunny .benefit-box{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.box-sunny .benefit-box:before {
+    content: "";
+    position: absolute;
+    background: #cbe0fb;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.box-sunny .benefit-box:hover:before {
+    background: #106eea;
+    top: 0;
+    border-radius: 0px;
+}
+
+.box-sunny .card-title {
+    color: #00A2E9;
+}
+
+.box-sunny .card-text {
+    color: #00A2E9;
+}
+
+.box-sunny .benefit-box:hover .card-title, .box-sunny .benefit-box:hover .card-text {
+    color: #fff;
+}
+
+
+/* service small size  */
+
+@media only screen and (min-width : 120px) {
+    
+    .box-sunny-sm .service-item-sm{
+        border-radius:25px; 
+        height:280px; 
+        width:240px;
+    }
+
+    .box-sunny-sm .service-item-sm .card-body .card-title{
+        font-size: .9rem;
+    }
+    .box-sunny-sm .service-item-sm .card-body .card-text{
+        font-size: .7rem;
+    }
+    .box-sunny-sm .service-item-sm .card-footer .btn-footer{
+        font-size: .6rem;
+    }
+
+    .box-sunny-sm .sunny-icon-sm{
+        width: 90px;
+        height: 90px;
+    }
+
+    .baysunny-icon-sm{
+        width: 80px;
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    
+    .box-sunny-sm .service-item-sm{
+        border-radius:25px; 
+        height:280px; 
+        width:240px;
+    }
+
+    .box-sunny-sm .service-item-sm .card-body .card-title{
+        font-size: .9rem;
+    }
+    .box-sunny-sm .service-item-sm .card-body .card-text{
+        font-size: .7rem;
+    }
+    .box-sunny-sm .service-item-sm .card-footer .btn-footer{
+        font-size: .6rem;
+    }
+
+    .box-sunny-sm .sunny-icon-sm{
+        width: 90px;
+        height: 90px;
+    }
+
+    .baysunny-icon-sm{
+        width: 80px;
+        height: 90px;
+    }
+}
+
+
+
+@media only screen and (min-width : 768px) {
+    
+    .box-sunny-sm .service-item-sm{
+        border-radius:25px; 
+        height:270px; 
+        width:200px;
+    }
+
+    .box-sunny-sm .service-item-sm .card-body .card-title{
+        font-size: .7rem;
+    }
+    .box-sunny-sm .service-item-sm .card-body .card-text{
+        font-size: .65rem;
+    }
+
+    .box-sunny-sm .service-item-sm .card-footer .btn-footer{
+        font-size: .5rem;
+    }
+
+    .box-sunny-sm .sunny-icon-sm{
+        width: 70px;
+        height: 80px;
+    }
+
+    .baysunny-icon-sm{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.box-sunny-sm .service-item-sm{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.box-sunny-sm .service-item-sm:hover {
+    transform: scale(1.11);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.box-sunny-sm .card-title {
+    color: #00A2E9;
+}
+
+.box-sunny-sm .card-text {
+    color: #00A2E9;
+}
+
+
+/* service regular size  */
+@media only screen and (min-width : 120px) {
+    
+    .service-item{
+        border-radius:25px; 
+        height:270px; 
+        width:240px;
+    }
+
+    .box-sunny .service-item .card-body .card-title{
+        font-size: .8rem;
+    }
+    .box-sunny .service-item .card-body .card-text{
+        font-size: .55rem;
+    }
+    .box-sunny .service-item .card-footer .btn-footer{
+        font-size: .5rem;
+    }
+    
+    .service-item .sunny-icon{
+        width: 80px;
+        height: 90px;
+    }
+
+    .baysunny-icon{
+        width: 70px;
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    
+    .service-item{
+        border-radius:25px; 
+        height:280px; 
+        width:240px;
+    }
+
+    .box-sunny .service-item .card-body .card-title{
+        font-size: .9rem;
+    }
+    .box-sunny .service-item .card-body .card-text{
+        font-size: .7rem;
+    }
+    .box-sunny .service-item .card-footer .btn-footer{
+        font-size: .6rem;
+    }
+
+    .service-item .sunny-icon{
+        width: 90px;
+        height: 90px;
+    }
+
+    .baysunny-icon{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media only screen and (min-width : 768px) { 
+   
+    .service-item{
+        border-radius:25px; 
+        height:290px; 
+        width:250px;
+    }
+
+    .box-sunny .service-item .card-body .card-title{
+        font-size: .8rem;
+    }
+    .box-sunny .service-item .card-body .card-text{
+        font-size: .7rem;
+    }
+
+    .box-sunny .service-item .card-footer .btn-footer{
+        font-size: .6rem;
+    }
+
+    .service-item .sunny-icon{
+        width: 100px;
+        height: 110px;
+    }
+
+    .baysunny-icon{
+        width: 100px;
+        height: 110px;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    
+    .service-item{
+        border-radius:25px; 
+        height:290px; 
+        width:250px;
+    }
+
+    .box-sunny .service-item .card-body .card-title{
+        font-size: .9rem;
+    }
+    .box-sunny .service-item .card-body .card-text{
+        font-size: .7rem;
+    }
+
+    .box-sunny .service-item .card-footer .btn-footer{
+        font-size: .7rem;
+    }
+
+    .service-item .sunny-icon{
+        width: 100px;
+        height: 110px;
+    }
+
+    .baysunny-icon{
+        width: 100px;
+        height: 110px;
+    }
+}
+
+.box-sunny .service-item{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.box-sunny .service-item:hover {
+    transform: scale(1.11);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.box-sunny .card-title {
+    color: #00A2E9;
+}
+
+.box-sunny .card-text {
+    color: #00A2E9;
+}
+
+
+/* Styling Hover sunny-icon */
+
+.icon-account:hover .sunny-icon-account{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/account.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/account.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-date {
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/date.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/date.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-time {
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/time.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/time.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-payment{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/payment.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/payment.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-list{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/list.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/list.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-team{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/team.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/team.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-tools{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/tools.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/tools.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-gurarantine{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/gurarantine.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/gurarantine.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-monitor{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/monitor.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/monitor.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-consultation{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/consultation.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/consultation.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-star{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/star.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/star.svg) no-repeat center / contain;
+}
+
+.box-sunny .benefit-box:hover .sunny-icon-amanah{
+    background-color: white; /* defines the background color of the image */
+    mask: url(/drives/drive-main-file/icons/amanah.svg) no-repeat center / contain;
+    -webkit-mask: url(/drives/drive-main-file/icons/amanah.svg) no-repeat center / contain;
+}
+

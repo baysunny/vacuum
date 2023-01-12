@@ -1,0 +1,43 @@
+.services-carousel .carousel-inner {
+    padding: 1em;
+}                                                                                                                   
+
+.services-carousel .carousel-control-prev,
+.services-carousel .carousel-control-next {
+  
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .services-carousel .carousel-item {
+        margin-right: 0;
+        flex: 0 0 50%;
+        display: block;
+    }
+    .services-carousel .carousel-inner {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    .services-carousel .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.3333%;;
+        display: block;
+    }
+    .services-carousel .carousel-inner {
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    .services-carousel .carousel-item {
+        margin-right: 0;
+        flex: 0 0 25%;;
+        display: block;
+    }
+    .services-carousel .carousel-inner {
+        display: flex;
+    }
+}
